@@ -7,7 +7,7 @@
 [Reccomendations](Reccomendations) -
 [Next Steps](next-steps)
 
-[Presentation](Final_Presentation.pptx) - [Executive Notebook](Executive_Notebook.ipynb)
+[Presentation](Final_Presentation.pdf) - [Executive Notebook](Executive_Notebook.ipynb)
 
 ## Contributors
 
@@ -97,5 +97,5 @@ Run the [Executive Notebook](Executive Notebook.ipynb) to reproduce our results.
 │
 ├── README.md
 │
-└── Final_Presentation.pptx
+└── Final_Presentation.pdf
 ```
