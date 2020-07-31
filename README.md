@@ -13,17 +13,17 @@
 
 ## Contributors
 
-- Raven Welch | (www.linkedin.com/in/Raven-Welch)[LinkedIn] | @RavenNHW
-- Clair Marie Wholean |(https://www.linkedin.com/in/clairaia/)[LinkedIn] | @clairmarie8
+- Raven Welch | (LinkedIn)[www.linkedin.com/in/Raven-Welch] | @RavenNHW
+- Clair Marie Wholean |(LinkedIn)[https://www.linkedin.com/in/clairaia/] | @clairmarie8
 
 ## Sources 
 
-Data was provided by (https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/23)[Driven Data], sourced from Taarifa and the Tanzanian Ministry of Water. 
+Data was provided by (Driven Data)[https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/23], sourced from Taarifa and the Tanzanian Ministry of Water. 
 
 Other research came from the following sources:
-- (https://en.wikipedia.org/wiki/Water_supply_and_sanitation_in_Tanzania)[Wikipedia]
-- (https://www.mdpi.com/2220-9964/6/8/244)[MDPI, Yola Georgiadou and Jeroen Verplanke]
-- (https://www.jica.go.jp/english/news/focus_on/water/water_6.html)[Jica]
+- (Wikipedia)[https://en.wikipedia.org/wiki/Water_supply_and_sanitation_in_Tanzania]
+- (MDPI, Yola Georgiadou and Jeroen Verplanke)[https://www.mdpi.com/2220-9964/6/8/244]
+- (Jica)[https://www.jica.go.jp/english/news/focus_on/water/water_6.html]
  
  ---
  
