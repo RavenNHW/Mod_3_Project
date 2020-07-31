@@ -1,7 +1,7 @@
 # Pump it Up: Data Mining the Water Table
 
 ## Navigation
-[Contributors]-
+[Contributors]-(Contributors)
 [Sources](Sources) -
 [Overview](Overview) - 
 [Reccomendations](Reccomendations) -
@@ -21,9 +21,9 @@
 Data was provided by (Driven Data)[https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/23], sourced from Taarifa and the Tanzanian Ministry of Water. 
 
 Other research came from the following sources:
-- (Wikipedia)[https://en.wikipedia.org/wiki/Water_supply_and_sanitation_in_Tanzania]
-- (MDPI, Yola Georgiadou and Jeroen Verplanke)[https://www.mdpi.com/2220-9964/6/8/244]
-- (Jica)[https://www.jica.go.jp/english/news/focus_on/water/water_6.html]
+- [Wikipedia](https://en.wikipedia.org/wiki/Water_supply_and_sanitation_in_Tanzania) 
+- [MDPI, Yola Georgiadou and Jeroen Verplanke](https://www.mdpi.com/2220-9964/6/8/244) 
+- [Jica](https://www.jica.go.jp/english/news/focus_on/water/water_6.html)
  
  ---
  
@@ -40,7 +40,7 @@ Other research came from the following sources:
 
 And with further investigation, the distribution is wide accross the country, with many high-dentity areas containing a large number of broken or completely nonfunctional waterpoints.
 
-![Broken Waterpoints](/images/broken_waterpoints_map.png) 
+![Broken Waterpoints](/images/broken_waterpoint_map.png) 
 
 ### Our Goal
 
@@ -60,6 +60,8 @@ Using that, we went through many iterations of differnet models and ended with c
 
 ![Model Results](/images/model_results.png)
 
+### Limitations
+
 While the model performed fairly well with functional and nonfunctional waterpoints, it was about as good as flipping a coin in terms of determining if a waterpoint was functional but needed repairs. The source of this problem is the massive class imbalance, as there are far fewer waterpoints labeled as functioning but needing repairs compared to the other cateogries, as well as the history of inaccurate data collection, missing data, and inconsistancy with what data was recorded for this dataset.
 
 -- 
@@ -76,8 +78,6 @@ After analyzing the data and model results, we have a few reccomendations in ter
 ## Next Steps
 
 - Methods to prevent waterpoint breakage should be determined, and shared with the communities who depend upon these water sources and the water management companies who manage the waterpoints.
-
 - Determine features that affect function status
-
 - Reduce the number of features used to predict waterpoint status
 
