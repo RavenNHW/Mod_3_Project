@@ -16,14 +16,13 @@
 
 ## Sources 
 
-Data was provided by (Driven Data)[https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/23], sourced from Taarifa and the Tanzanian Ministry of Water. 
+Data was provided by [Driven Data](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/23), sourced from Taarifa and the Tanzanian Ministry of Water. 
 
 Other research came from the following sources:
 - [Wikipedia](https://en.wikipedia.org/wiki/Water_supply_and_sanitation_in_Tanzania) 
 - [MDPI, Yola Georgiadou and Jeroen Verplanke](https://www.mdpi.com/2220-9964/6/8/244) 
 - [Jica](https://www.jica.go.jp/english/news/focus_on/water/water_6.html)
- 
- ---
+
  
  ## Overview
  
@@ -62,8 +61,6 @@ Using that, we went through many iterations of differnet models and ended with c
 
 While the model performed fairly well with functional and nonfunctional waterpoints, it was about as good as flipping a coin in terms of determining if a waterpoint was functional but needed repairs. The source of this problem is the massive class imbalance, as there are far fewer waterpoints labeled as functioning but needing repairs compared to the other cateogries, as well as the history of inaccurate data collection, missing data, and inconsistancy with what data was recorded for this dataset.
 
--- 
-
 ## Reccomendations
 
 After analyzing the data and model results, we have a few reccomendations in terms of data collection: 
@@ -79,3 +76,24 @@ After analyzing the data and model results, we have a few reccomendations in ter
 - Determine features that affect function status
 - Reduce the number of features used to predict waterpoint status
 
+# Reproduction 
+
+Run the [Executive Notebook](Executive Notebook.ipynb) to reproduce our results. The data we used is found in the [data](/data) folder.
+
+## Repo Filetree
+```
+├── Images
+│   ├── broken_waterpoint_map.png
+│   ├── model_results.png
+│   └── waterpoints_by_status.png
+│
+├── data
+│   ├── tanzania_labels.csv
+│   └── tanzania_values.csv
+│
+├── Executive Notebook.ipynb
+│
+├── README.md
+│
+└── Final_Presentation.pptx
+```
