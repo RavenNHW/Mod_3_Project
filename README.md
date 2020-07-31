@@ -57,6 +57,8 @@ Using that, we went through many iterations of differnet models and ended with c
 
 ![Model Results](/images/model_results.png)
 
+View the [Executive Notebook](Executive_Notebook.ipynb) to review the entire preprocessing and model training process. 
+
 ### Limitations
 
 While the model performed fairly well with functional and nonfunctional waterpoints, it was about as good as flipping a coin in terms of determining if a waterpoint was functional but needed repairs. The source of this problem is the massive class imbalance, as there are far fewer waterpoints labeled as functioning but needing repairs compared to the other cateogries, as well as the history of inaccurate data collection, missing data, and inconsistancy with what data was recorded for this dataset.
@@ -91,7 +93,7 @@ Run the [Executive Notebook](Executive Notebook.ipynb) to reproduce our results.
 │   ├── tanzania_labels.csv
 │   └── tanzania_values.csv
 │
-├── Executive Notebook.ipynb
+├── Executive_Notebook.ipynb
 │
 ├── README.md
 │
