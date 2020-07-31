@@ -1,31 +1,28 @@
 # Pump it Up: Data Mining the Water Table
 
 ## Navigation
-[Contributors](Contributors) -
+[Contributors](Contributors)-
 [Sources](Sources) -
 [Overview](Overview) - 
 [Reccomendations](Reccomendations) -
 [Next Steps](next-steps)
 
-
-
--- 
+[Presentation](Final_Presentation.pptx) - [Executive Notebook](Executive_Notebook.ipynb)
 
 ## Contributors
 
-- Raven Welch | (www.linkedin.com/in/Raven-Welch)[LinkedIn] | @RavenNHW
-- Clair Marie Wholean |(https://www.linkedin.com/in/clairaia/)[LinkedIn] | @clairmarie8
+- Raven Welch | [LinkedIn](www.linkedin.com/in/Raven-Welch) | @RavenNHW
+- Clair Marie Wholean |[LinkedIn](https://www.linkedin.com/in/clairaia/) | @clairmarie8
 
 ## Sources 
 
-Data was provided by (https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/23)[Driven Data], sourced from Taarifa and the Tanzanian Ministry of Water. 
+Data was provided by [Driven Data](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/23), sourced from Taarifa and the Tanzanian Ministry of Water. 
 
 Other research came from the following sources:
-- (https://en.wikipedia.org/wiki/Water_supply_and_sanitation_in_Tanzania)[Wikipedia]
-- (https://www.mdpi.com/2220-9964/6/8/244)[MDPI, Yola Georgiadou and Jeroen Verplanke]
-- (https://www.jica.go.jp/english/news/focus_on/water/water_6.html)[Jica]
- 
- ---
+- [Wikipedia](https://en.wikipedia.org/wiki/Water_supply_and_sanitation_in_Tanzania) 
+- [MDPI, Yola Georgiadou and Jeroen Verplanke](https://www.mdpi.com/2220-9964/6/8/244) 
+- [Jica](https://www.jica.go.jp/english/news/focus_on/water/water_6.html)
+
  
  ## Overview
  
@@ -40,7 +37,7 @@ Other research came from the following sources:
 
 And with further investigation, the distribution is wide accross the country, with many high-dentity areas containing a large number of broken or completely nonfunctional waterpoints.
 
-![Broken Waterpoints](/images/broken_waterpoints_map.png) 
+![Broken Waterpoints](/images/broken_waterpoint_map.png) 
 
 ### Our Goal
 
@@ -60,9 +57,9 @@ Using that, we went through many iterations of differnet models and ended with c
 
 ![Model Results](/images/model_results.png)
 
-While the model performed fairly well with functional and nonfunctional waterpoints, it was about as good as flipping a coin in terms of determining if a waterpoint was functional but needed repairs. The source of this problem is the massive class imbalance, as there are far fewer waterpoints labeled as functioning but needing repairs compared to the other cateogries, as well as the history of inaccurate data collection, missing data, and inconsistancy with what data was recorded for this dataset.
+### Limitations
 
--- 
+While the model performed fairly well with functional and nonfunctional waterpoints, it was about as good as flipping a coin in terms of determining if a waterpoint was functional but needed repairs. The source of this problem is the massive class imbalance, as there are far fewer waterpoints labeled as functioning but needing repairs compared to the other cateogries, as well as the history of inaccurate data collection, missing data, and inconsistancy with what data was recorded for this dataset.
 
 ## Reccomendations
 
@@ -76,8 +73,27 @@ After analyzing the data and model results, we have a few reccomendations in ter
 ## Next Steps
 
 - Methods to prevent waterpoint breakage should be determined, and shared with the communities who depend upon these water sources and the water management companies who manage the waterpoints.
-
 - Determine features that affect function status
-
 - Reduce the number of features used to predict waterpoint status
 
+# Reproduction 
+
+Run the [Executive Notebook](Executive Notebook.ipynb) to reproduce our results. The data we used is found in the [data](/data) folder.
+
+## Repo Filetree
+```
+├── Images
+│   ├── broken_waterpoint_map.png
+│   ├── model_results.png
+│   └── waterpoints_by_status.png
+│
+├── data
+│   ├── tanzania_labels.csv
+│   └── tanzania_values.csv
+│
+├── Executive Notebook.ipynb
+│
+├── README.md
+│
+└── Final_Presentation.pptx
+```
