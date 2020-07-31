@@ -1,11 +1,11 @@
 # Pump it Up: Data Mining the Water Table
 
 ## Navigation
-[#Contributors](Contributors) -
-[#Sources](Sources) -
-[#Overview](Overview) - 
-[#Reccomendations](Reccomendations) -
-[#next-steps](Next Steps)
+[Contributors](Contributors) -
+[Sources](Sources) -
+[Overview](Overview) - 
+[Reccomendations](Reccomendations) -
+[Next Steps](next-steps)
 
 
 
