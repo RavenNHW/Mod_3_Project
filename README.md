@@ -1,7 +1,7 @@
 # Pump it Up: Data Mining the Water Table
 
 ## Navigation
-[Contributors]-(Contributors)
+[Contributors](Contributors)-
 [Sources](Sources) -
 [Overview](Overview) - 
 [Reccomendations](Reccomendations) -
