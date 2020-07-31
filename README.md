@@ -7,14 +7,12 @@
 [Reccomendations](Reccomendations) -
 [Next Steps](next-steps)
 
-
-
--- 
+[Presentation](Final_Presentation.pptx) - [Executive Notebook](Executive_Notebook.ipynb)
 
 ## Contributors
 
-- Raven Welch | (LinkedIn)[www.linkedin.com/in/Raven-Welch] | @RavenNHW
-- Clair Marie Wholean |(LinkedIn)[https://www.linkedin.com/in/clairaia/] | @clairmarie8
+- Raven Welch | [LinkedIn](www.linkedin.com/in/Raven-Welch) | @RavenNHW
+- Clair Marie Wholean |[LinkedIn](https://www.linkedin.com/in/clairaia/) | @clairmarie8
 
 ## Sources 
 
